@@ -437,7 +437,7 @@
   }
   
   .somos-txt {
-    background-image: url('../4.Contacto/Imagenes/ContactoFond.png');
+    background-image: url('../Imagenes/ContactoFond.png');
     padding-left: 50px;
     padding-top: 10%;
     padding-right: 50px;
@@ -532,6 +532,38 @@
     }
   }
   
+/* Tienda CSS */
+
+.beneficio {
+  padding: 50px 50px;
+  h2{
+    padding-left: 20%;
+  }
+}
+
+/* Producto CSS */
+
+.productoaceite1 {
+  text-align: center;
+    font-family: 'PT Sans';
+    img{
+      width: 210px;
+      height: 260px;
+      margin-top: 30px;
+      justify-content: center;
+      border-radius: 10px;
+      transition: all .2s ;
+  }
+    img:hover{
+      transform: scale(1.1);
+  }
+}
+
+.infoproducto {
+  margin: 20% 10%;
+}
+
+
   @media screen and (max-width: 480px) {
   
   .mensaje p{
