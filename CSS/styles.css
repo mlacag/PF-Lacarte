@@ -41,7 +41,6 @@
   padding-left: 25%;
   gap: 50px;
 }
-
 .barra-nav a {
   text-decoration: none;
   color: #2B2E32;
@@ -49,7 +48,6 @@
   font-weight: 700;
   transition: all 0.2s linear;
 }
-
 .barra-nav a:hover {
   color: #AB8537;
 }
@@ -61,7 +59,6 @@
   padding-right: 25%;
   gap: 50px;
 }
-
 .barra-nav1 a {
   text-decoration: none;
   color: #2B2E32;
@@ -69,7 +66,6 @@
   font-weight: 700;
   transition: all 0.2s linear;
 }
-
 .barra-nav1 a:hover {
   color: #AB8537;
 }
@@ -87,7 +83,6 @@
   padding-top: 10%;
   padding-left: 8.25%;
 }
-
 .menu-texto h1 {
   font-size: 45px;
   font-family: "PT Sans";
@@ -95,14 +90,11 @@
   margin-bottom: 40px;
   color: whitesmoke;
 }
-
 .menu-texto p {
   font-size: 20px;
   font-family: "PT Sans";
   margin-bottom: 5px;
-  color: #2B2E32;
 }
-
 .menu-texto a {
   display: inline-block;
   text-decoration: none;
@@ -116,7 +108,6 @@
   border: 2px solid #2B2E32;
   transition: all 0.2s linear;
 }
-
 .menu-texto a:hover {
   color: #02391f;
   background: whitesmoke;
@@ -151,7 +142,6 @@
   text-align: center;
   font-family: "PT Sans";
 }
-
 .producto img {
   width: 210px;
   height: 260px;
@@ -160,15 +150,13 @@
   border-radius: 10px;
   transition: all 0.2s;
 }
-
-.pro-desc {
-  margin-top: 10px;
-}
-
 .producto img:hover {
   transform: scale(1.1);
 }
 
+.pro-desc {
+  margin-top: 10px;
+}
 .pro-desc a {
   text-decoration: none;
   font-family: "PT Sans";
@@ -177,7 +165,6 @@
   color: #2B2E32;
   transition: all 0.2s linear;
 }
-
 .pro-desc a:hover {
   color: whitesmoke;
 }
@@ -196,19 +183,16 @@
   border-end-start-radius: 25px;
   border-top-left-radius: 25px;
 }
-
 .que-cbd-txt h2 {
   color: whitesmoke;
   font-family: "PT Sans";
   font-weight: 700;
 }
-
 .que-cbd-txt p {
   padding-top: 30px;
   color: whitesmoke;
   font-family: "PT Sans";
 }
-
 .que-cbd-txt a {
   display: inline-block;
   text-decoration: none;
@@ -223,7 +207,6 @@
   border: 2px solid #2B2E32;
   transition: all 0.2s linear;
 }
-
 .que-cbd-txt a:hover {
   color: whitesmoke;
   background: #A0BC96;
@@ -258,43 +241,43 @@
 .review {
   text-align: center;
 }
-
-.review-txt {
-  transition: all 0.2s linear;
-}
-
-.review-txt:hover {
-  transform: scale(1.02);
-}
-
-.review-txt img {
-  width: 100px !important;
-  height: auto !important;
-}
-
 .review h2 {
   color: #FF5757;
   font-family: "PT Sans";
   font-weight: 700;
 }
+.review img {
+  height: 100px;
+  width: auto;
+  padding-top: 5px;
+}
+.review h4 {
+  color: #2B2E32;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
 
+.review-txt {
+  transition: all 0.2s linear;
+}
 .review-txt h3 {
   padding-top: 15px;
   color: #02391f;
   font-family: "PT Sans";
   font-weight: 700;
 }
-
+.review-txt img {
+  width: 100px !important;
+  height: auto !important;
+}
 .review-txt p {
   color: #2B2E32;
   font-family: "PT Sans";
   padding-top: 10px;
 }
 
-.review img {
-  height: 100px;
-  width: auto;
-  padding-top: 5px;
+.review-txt:hover {
+  transform: scale(1.02);
 }
 
 .fder img {
@@ -308,30 +291,37 @@
   transform: scale(1.2);
 }
 
-.review h4 {
-  color: #2B2E32;
-  font-family: "PT Sans";
-  font-weight: 700;
-}
-
 .subscriber-menu {
   background-color: #FFF8E9;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 .subscriber-menu img {
   height: 350px;
   width: auto;
   margin-top: 30px;
 }
 
+.subscriber-info {
+  margin-top: 50px;
+}
 .subscriber-info form {
   margin-top: 20px;
 }
-
-.subscriber-info label, input {
+.subscriber-info label, .subscriber-info input {
   margin: 10px;
+}
+.subscriber-info h3 {
+  font-size: 32px;
+  color: #2B2E32;
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+.subscriber-info p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #2B2E32;
+  font-family: "PT Sans";
 }
 
 .subs-email {
@@ -362,33 +352,13 @@
   transform: scale(1.05);
 }
 
-.subscriber-info {
-  margin-top: 50px;
-}
-
-.subscriber-info h3 {
-  font-size: 32px;
-  color: #2B2E32;
-  font-family: "PT Sans";
-  font-weight: 700;
-}
-
-.subscriber-info p {
-  margin-top: 20px;
-  font-size: 16px;
-  color: #2B2E32;
-  font-family: "PT Sans";
-}
-
 .footer-fila {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
 .footer-fila ul {
   list-style: none;
 }
-
 .footer-fila ul li {
   font-family: "PT Sans";
   margin-bottom: 10px;
@@ -403,43 +373,6 @@
   margin-left: 25%;
   padding: 0 15px;
 }
-
-.footer-col h4 {
-  font-size: 18px;
-  color: #2B2E32;
-  margin-bottom: 35px;
-  font-family: "PT Sans";
-  font-weight: 700;
-  position: relative;
-}
-
-.footer-col h4::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: whitesmoke;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-}
-
-.footer-col ul li a {
-  font-size: 16px;
-  text-transform: capitalize;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 300;
-  color: #2B2E32;
-  display: block;
-  transition: all 0.3s ease;
-}
-
-.footer-col ul li a:hover {
-  color: #ffffff;
-  padding-left: 8px;
-}
-
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;
@@ -450,9 +383,40 @@
   color: #ffffff;
   transition: all 0.5s ease;
 }
-
 .footer-col .social-links a:hover {
   transform: scale(1.05);
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #2B2E32;
+  margin-bottom: 35px;
+  font-family: "PT Sans";
+  font-weight: 700;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: whitesmoke;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #2B2E32;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
 }
 
 /* CSS CONTACTO */
@@ -465,20 +429,18 @@
 }
 
 .somos-txt {
-  background-image: url("../4.Contacto/Imagenes/ContactoFond.png");
+  background-image: url("../Imagenes/ContactoFond.png");
   padding-left: 50px;
   padding-top: 10%;
   padding-right: 50px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-
 .somos-txt h2 {
   color: #2B2E32;
   font-family: "PT Sans";
   font-weight: 700;
 }
-
 .somos-txt p {
   padding-top: 30px;
   color: #2B2E32;
@@ -506,17 +468,16 @@
   padding-right: 50px;
   text-align: left;
 }
-
-.contacto-img {
-  height: 100%;
-  max-width: 100%;
-}
-
 .contacto-txt h2 {
   color: #2B2E32;
   font-family: "PT Sans";
   font-weight: 700;
   padding-bottom: 30px;
+}
+
+.contacto-img {
+  height: 100%;
+  max-width: 100%;
 }
 
 .contacto-imp {
@@ -542,7 +503,6 @@
 .contacto-bot {
   padding: 15px 20px;
 }
-
 .contacto-bot button {
   display: inline-block;
   text-decoration: none;
@@ -556,11 +516,92 @@
   border: 2px solid #2B2E32;
   transition: all 0.2s linear;
 }
-
 .contacto-bot button:hover {
   color: whitesmoke;
   background: #A0BC96;
   transform: scale(1.05);
+}
+
+/* Tienda CSS */
+.tienda-banner {
+  background-image: url("../Imagenes/TiendaFondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: auto;
+}
+
+.tienda-def {
+  display: grid;
+  grid-column: 1fr 1fr;
+}
+
+.beneficio {
+  padding: 50px 20%;
+  text-align: center;
+}
+.beneficio h2 {
+  font-size: 28px;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #02391f;
+}
+.beneficio li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Producto CSS */
+.producto-detalles {
+  margin: 30px 8% 40px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.producto-img {
+  justify-self: end;
+}
+.producto-img img {
+  width: auto;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.producto-info p {
+  font-size: 15px;
+  color: #2B2E32;
+  font-family: "PT Sans";
+  margin-bottom: 8px;
+  margin-top: 40px;
+}
+.producto-info h1 {
+  font-size: 28px;
+  font-family: "PT Sans";
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #02391f;
+}
+
+.producto-boton a {
+  padding-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  background: #A0BC96;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: "PT Sans";
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 2px solid #2B2E32;
+  transition: all 0.2s linear;
+}
+.producto-boton a:hover {
+  color: #02391f;
+  background: whitesmoke;
 }
 
 @media screen and (max-width: 480px) {

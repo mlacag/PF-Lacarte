@@ -534,33 +534,90 @@
   
 /* Tienda CSS */
 
+.tienda-banner {
+  background-image: url('../Imagenes/TiendaFondo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: auto;
+}
+.tienda-def {
+  display: grid;
+  grid-column: 1fr 1fr;
+}
+
 .beneficio {
-  padding: 50px 50px;
-  h2{
-    padding-left: 20%;
+  padding: 50px 20%;
+  text-align: center;
+  h2 {
+    font-size: 28px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #02391f;
+  }
+  li {
+    display: inline-block; 
+    margin-right: 10px;
+    
   }
 }
 
 /* Producto CSS */
 
-.productoaceite1 {
-  text-align: center;
+.producto-detalles {
+    margin: 30px 8% 40px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+} 
+
+.producto-img {
+  justify-self: end;
+  img{
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+}
+}
+
+.producto-info {
+  p {
+    font-size: 15px;
+    color: #2B2E32;
     font-family: 'PT Sans';
-    img{
-      width: 210px;
-      height: 260px;
-      margin-top: 30px;
-      justify-content: center;
-      border-radius: 10px;
-      transition: all .2s ;
+    margin-bottom: 8px;
+    margin-top: 40px;
   }
-    img:hover{
-      transform: scale(1.1);
+  h1 {
+    font-size: 28px;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #02391f;
   }
 }
 
-.infoproducto {
-  margin: 20% 10%;
+.producto-boton {
+  a {
+    padding-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    background: #A0BC96;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-family: 'PT Sans';
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px solid #2B2E32;
+    transition: all .2s linear;
+  }
+  a:hover{
+    color: #02391f;
+    background: whitesmoke;
+  }
 }
 
 
